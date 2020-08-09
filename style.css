@@ -12,3 +12,102 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header{
+  position: fixed;
+    background: black;
+    color: white;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    height: 100px;
+}
+
+header img{
+  border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+header h1{
+  position: absolute;
+  top: 0px;left: 50%;
+  transform: translate(-50%,50%);
+}
+
+header nav{
+  position: fixed;
+  right: 0px;
+  top: 36.5px;
+}
+
+header #descriptionInNav{
+  color: white;
+  position: fixed;
+  right: 109.344px;
+}
+
+header #relationshipInNav{
+  color: white;
+  position: fixed;
+  right: 5px;
+}
+
+#description{
+  background: darkgrey;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#description img{
+  top: 100px;
+  float: left;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#description h2{
+  margin-top: 100px;
+  padding: 40px;
+}
+
+.description-p1{
+  margin: 20px;
+}
+
+.description-p2{
+  clear: both;
+  margin: 20px;
+}
+
+.relationship{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.relationship img{
+  float: right;
+}
+
+.relationship h2{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.relationship-p1{
+  margin: 20px;
+}
+
+.relationship-p2{
+  margin: 20px;
+}
+
+footer{
+  background: lightgray;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
